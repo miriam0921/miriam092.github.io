@@ -1,0 +1,173 @@
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/*标题开始*/
+#top_scroll  .header{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    background:rgba(0,0,0,0.6);
+    z-index: 2;
+}
+.header .header_middle{
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+    margin-top: 25px;
+}
+.header_middle  li{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
+    opacity: 0.7;
+}
+.li_1{
+    background: #5CB2FC;
+}
+.li_2{
+    background: #FFA659;
+}
+.li_3{
+    background: #B881CF;
+}
+.li_4{
+    background-color: #58EBD3;
+}
+.li_5{
+    background: #FF7985;
+}
+/*标题结束*/
+/*滚屏开始*/
+#top_scroll{
+    background: white;
+    width: 1510px;
+    height: 750px;
+    position: absolute;
+    z-index: 0;
+    margin-top: -10px;
+}
+.top_scroll_img{
+    width: 100%;
+    height: 750px;
+    margin-top: 1px;
+    position: absolute;
+    z-index: 0;
+}
+.ig img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.top_scroll_num{
+    width: 210px;
+    height: 30px;
+    position: absolute;
+    z-index: 1;
+    bottom: 10%;
+    right: 40%;
+    opacity: 0.5;
+}
+.tb{
+    width: 28px;
+    height: 30px;
+    color: cornflowerblue;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    float: left;
+}
+/*滚屏结束*/
+/*右上角开始*/
+.header_right{
+    width: 10%;
+    height: 50px;
+    position: absolute;
+    z-index: 2;
+    right: 0px;
+    top: 0px;
+}
+.header_right li{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.li_6{
+    background: #FFA659;
+}
+.li_6 div{
+    display: none;
+    background: #FFA659;
+}
+.li_7{
+    background: #B881CF;
+}
+/*右上角结束*/
+/*主体开始*/
+#cont{
+    width: 80%;
+    height: 600px;
+    position: absolute;
+    margin-top: 760px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+
+}
+#cont li{
+    width: 35%;
+    height: 35%;
+    position: relative;
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#cont li img{
+    width: 100%;
+    height: 100%;
+}
+/*主体结束*/
+/*底部开始*/
+#foot{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    margin-top: 1500px;
+    background: black;
+    color: black;
+    opacity: 0.7;
+    text-align: center;
+}
+#foot .foot_top{
+    background: black;
+    opacity: 0.7;
+}
+#foot .foot_end{
+    color: white;
+}
+.footer_dull_red{
+    color: white;
+}
+/*底部结束*/
+/*ad开始*/
+#ad{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 3; /*负数:下面 0:同级，按照原来的顺序 正数:上面*/
+    top: 550px;
+    right: 30px;
+}
+/*ad结束*/

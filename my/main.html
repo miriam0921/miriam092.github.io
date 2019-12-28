@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="cs/animate.min.css">
+    <link rel="stylesheet" href="cs/top_scroll.css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/lunbo.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/header_right.js"></script>
+    <script src="js/ad.js"></script>
+</head>
+<style>
+    .music{
+        width: 400px;
+        height: 80px;
+        background: black;
+        position: relative;
+        float: left;
+        z-index: 0;
+    }
+</style>
+<script>
+    $(document).ready(function () {
+        $("#ad").click(function (){
+            window.scrollTo(0,0);
+        })
+    })
+</script>
+<body style="background: black">
+<div class="music">S
+    <embed src="music/1.mp3" type="">
+</div>
+<div id="ad">
+    <img src="img/banquan.jpg" alt="">
+</div>
+    <div id="top_scroll">
+        <!--标题-->
+        <div class="header">
+            <div class="header_middle">
+                <li class="li_1"><a href="">首页</a></li>
+                <li class="li_2"><a href="">游戏攻略</a></li>
+                <li class="li_3"><a href="">资源下载</a></li>
+                <li class="li_4"><a href="">视频专区</a></li>
+                <li class="li_5"><a href="">酒馆畅聊</a></li>
+            </div>
+        </div>
+        <!--登陆与注册-->
+        <div class="header_right">
+            <li class="li_6"><a href="">登陆</a>
+                <div class="menu">
+                    <a href="login2.html" target="_self">♂</a><br />
+                    <a href="login1.html" target="_self">♀</a><br />
+                </div>
+            </li>
+            <li class="li_7"><a href="register1.html">注册</a></li>
+        </div>
+        <!--图片轮播-->
+        <div class="top_scroll_img">
+            <li class="ig"><img src="img/scroll_1.jpg" alt=""></li>
+            <li class="ig"><img src="img/scroll_2.jpg" alt=""></li>
+            <li class="ig"><img src="img/scroll_3.jpg" alt=""></li>
+            <li class="ig"><img src="img/scroll_01.jpg" alt=""></li>
+            <li class="ig"><img src="img/scroll_02.jpg" alt=""></li>
+            <li class="ig"><img src="img/scroll_03.jpg" alt=""></li>
+            <li class="ig"><img src="img/scroll_00.jpg" alt=""></li>
+        </div>
+        <!--底部圆圈-->
+        <div class="top_scroll_num">
+            <li class="tb">●</li>
+            <li class="tb">●</li>
+            <li class="tb">●</li>
+            <li class="tb">●</li>
+            <li class="tb">●</li>
+            <li class="tb">●</li>
+            <li class="tb">●</li>
+        </div>
+    </div>
+    <!--论坛入口-->
+    <div id="cont">
+        <li><a href=""><img src="img/lt1.jpg" alt=""></a></li>
+        <li><a href=""><a href="index.html"><img src="img/lt2.jpg" alt=""></a></a></li>
+        <li><a href=""><img src="img/lt3.jpg" alt=""></a></li>
+        <li><a href=""><img src="img/lt4.jpg" alt=""></a></li>
+    </div>
+    <!--底部-->
+    <div id="foot">
+        <div class="foot_top">
+            <a href="#" target="_parent" class="footer_dull_red">这是假的</a>
+            | <a href="#" target="_parent" class="footer_dull_red">还是假的</a>
+            | <a href="#" target="_parent" class="footer_dull_red">都是假的</a>
+            | <a href="#" target="_parent" class="footer_dull_red">全是假的</a>
+            | <a href="http://cf.gamebbs.qq.com/forum.php" target="_parent" class="footer_dull_red">这是真的</a>
+        </div>
+        <div class="foot_end">
+            COPYRIGHT  1998 – 2018 TENCENT. ALL RIGHTS RESERVED.
+            山农扛把子小组 版权所有
+            <li><img src="img/banquan4.jpg"  alt="版权" style="vertical-align:middle;" /></li>
+        </div>
+    </div>
+</body>
+</html>

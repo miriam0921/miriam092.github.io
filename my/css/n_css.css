@@ -1,0 +1,68 @@
+#nav{
+    width: 102%;
+    height: 108px;
+    background: black;
+    clear: both;
+    margin-top: 10px;
+    opacity: 0.7;
+    left: 0px;
+}
+#nav ul{
+    width: 100%;
+    margin: 0px auto;
+
+}
+#nav ul li{
+    float: left;
+    width: 16%;
+    text-align: center;
+}
+#nav ul li{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    line-height: 36px;
+}
+#nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 18px;
+    color: #ffffff;
+    line-height: 38px;
+    display:block;
+}
+#nav ul li a:hover {
+    background: orangered;
+    opacity: 1.0;
+    color: #ffffff;
+    text-decoration: none;
+}
+#nav .logo{
+    float: left;
+}
+#nav .tip a:hover{
+    background: orangered;
+    opacity: 1.0;
+    color: #ffffff;
+    text-decoration: none;
+}
+#nav .tip{
+    position: relative;
+    z-index: 100;
+    float: right;
+    right: 40px;
+    margin-top: -10px;
+}
+#nav .tip a{
+    color: white;
+}
+.gundongzimu{
+    top: 13%;
+    /*background: red;*/
+    font-size: 25px;
+    float: left;
+    position: absolute;
+    right: 0px;
+    width: 80%;
+
+}

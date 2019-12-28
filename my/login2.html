@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        li{
+            list-style: none;
+        }
+    </style>
+    <link rel="stylesheet" href="css2/load.css">
+    <link rel="stylesheet" href="css2/Register.css">
+    <link rel="stylesheet" href="css2/animate.min.css">
+    <!--<link rel="stylesheet" href="css2/font.css">-->
+    <script src="js2/jquery-1.12.4.js"></script>
+    <script src="js2/bg.js"></script>
+    <script src="js2/zhuce.js"></script>
+
+</head>
+
+<body >
+<!--背景-->
+<section id="main">
+
+<!--登录部分-->
+<div class="load">
+<div class="header-w3l">
+    <h1 style="text-align:center;">
+        <span>F</span>orum
+        <span>L</span>ogin
+        <span>T</span>able</h1>
+    <h3 style="text-align:center;">
+        论坛登录</h3>
+</div>
+<!--登录框-->
+<div class="main-content-agile">
+    <div class="sub-main-w3">
+        <h2 style="color: #fb6906">Man Login Here</h2>
+        <h4 style="color: #fb6906">男 人，在 此 登 录</h4>
+        <form action="main.html" method="post">
+            <div class="pom-agile">
+                <input class="pom-agile_txt" placeholder="Id" name="Name" type="text" required="required" pattern="[1-9][0-9]{3,8}">
+            </div>
+            <ul class="pom-agile_txt_ts">
+                <li>·用户名为4-9位纯数字</li>
+                <li>·第一位1-9</li>
+            </ul>
+            <div class="pom-agile">
+                <input class="pom-agile_pwd" placeholder="Password" name="Password" type="password" required="required" pattern="[a-zA-Z0-9]{6,15}">
+            </div>
+            <ul class="pom-agile_pwd_ts">·密码为6-16位</ul>
+            <div class="sub-w3l">
+                <a href="#">Forgot Password?</a>
+                <div class="clear"></div>
+            </div>
+            <br><br>
+            <div class="right-w3l">
+                <sapn class="aaa">No id?</sapn><br>
+                <input type="submit" value="Login" >
+                <!--<sapn class="aaa">No id?</sapn>-->
+                <input class="right-w3l2" type="button" value="Register" onclick="a()">
+            </div>
+
+        </form>
+    </div>
+</div>
+</div>
+    <!--登录部分结束-->
+    <!--注册部分开始-->
+    <div class="register">
+        <div class="header-w3l">
+            <h1 style="text-align:center;">
+                <span>F</span>orum
+                <span>R</span>egistry
+                <span>T</span>able</h1>
+            <h3 style="text-align:center;">
+                论坛注册 </h3>
+        </div>
+        <!--登录框-->
+        <div class="main-content-agile">
+            <div class="sub-main-w3">
+                <h2 style="color: #fb6906">Man Register Here</h2>
+                <h4 style="color: #fb6906">男 人，在 此 注 册</h4>
+                <form action="main.html" method="post" onsubmit="return formCheck()">
+                    <div class="zhuce_pom-agile">
+                        <input class="zhuce_1" placeholder="Id" name="Name" type="text" required="required" pattern="[1-9][0-9]{3,8}">
+                    </div>
+                    <ul class="zhuce_1_ts">
+                        <li>·用户名为4-9位纯数字</li>
+                        <li>·第一位1-9</li>
+                    </ul>
+
+
+                    <div class="zhuce_pom-agile">
+                        <input class="zhuce_2" id="pwd1" placeholder="Password1" name="Password1" type="password" required="required" pattern="[a-zA-Z0-9]{6,15}">
+                    </div>
+                    <ul class="zhuce_2_ts">
+                        <li>·第一次输入密码</li>
+                        <li>·密码为6-16位</li>
+                    </ul>
+
+                    <div class="zhuce_pom-agile">
+                        <input class="zhuce_3" id="pwd2" placeholder="Password2" name="Password2" type="password" required="required" pattern="[a-zA-Z0-9]{6,15}">
+                    </div>
+                    <ul class="zhuce_3_ts">
+                        <li>·请再输入密码</li>
+                        <li>·两次密码请一致</li>
+                    </ul>
+
+                    <div class="zhuce_pom-agile">
+                        <input class="zhuce_4"  placeholder="PhoneNumber" name="PhoneNumber" type="text" pattern="[1][358][0-9]{9}">
+                    </div>
+                    <ul class="zhuce_4_ts">
+                        ·请输入手机号,可空
+                    </ul>
+
+                    <div class="zhuce_pom-agile">
+                        <input class="zhuce_5"  placeholder="Email" name="Email" type="email" >
+                    </div>
+                    <ul class="zhuce_5_ts">
+                        ·请输入邮箱,可空
+                    </ul>
+
+                    <br><br>
+                    <div class="zhuce_right-w3l">
+                        <input type="submit" value="Register">
+                        <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+                        <input class="zhuce_right-w3l2" type="button" value="  Back  " onclick="b()">
+                    </div>
+
+                </form>
+            </div>
+    </div>
+</section>
+
+
+</body>
+</html>

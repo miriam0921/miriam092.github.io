@@ -1,0 +1,56 @@
+/*顶部导航*/
+/*.bgbox{
+	background: url(../picture/2.jpg);
+}*/
+body{
+	background: url(../picture/background.jpg);
+}
+h1 {
+  font-size: 2em;  
+}
+li{
+	list-style: none;
+}
+a,a:hover{
+	text-decoration: none;
+}
+.hide{
+	display: none;
+}
+.head{
+	width:100%;
+	height:63px;
+	background: rgba(0, 0, 0, 0.3);
+	/*background-color:#FE13F7;*/
+}
+
+.head a{
+	color:#F9F7F7;
+	font-weight: bolder;
+}
+.headlogo a{
+	font-family: "黑体";
+  color: #fff;
+}
+.headlogo{
+	width:187px;
+	height:60px;
+	text-align:center;
+	line-height: 60px;
+	
+}
+.head .headnav li{
+	float:left;
+	margin-right: 0px;
+	line-height: 78px;
+	
+}
+.timeArea ul{
+	position: absolute;
+	/*margin-right: 2%;*/
+	/*margin-top: 80%;*/
+}
+.login_bj{
+	background: url(../picture/background.jpg);
+	background-size: 110%;
+}

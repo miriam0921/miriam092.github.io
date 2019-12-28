@@ -1,0 +1,174 @@
+/*主体2的样式*/
+.book {
+    width: 1050px;
+    height: 270px;
+    clear: both;
+    margin: 0px auto;
+    background-color: red;
+    position: relative;
+}
+.book_left{
+    position: absolute;
+    width: 75%;
+
+}
+.book_left h1 {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    width: 96%;
+}
+.book_left li{
+    width: 200px;
+    height: 200px;
+    border: 0px solid black;
+    float: left;
+}
+.book_right{
+    width: 25%;
+    position: absolute;
+    right: 0px;
+    font-size: 10px;
+}
+.book_right ol li{
+    float: left;
+    padding-left: 8px;
+    border: 0px solid ;
+}
+.book_right ul{
+    clear: both;
+}
+.book_right{
+    border: 1px solid black;
+}
+.list div{
+    display: none;
+}
+.main2{
+    width: 1050px;
+    height:270px;
+    clear: both;
+    margin: 0px auto;
+    /*background-color: red;*/
+    position: relative;
+    border: 1px solid gainsboro;
+}
+.main3{
+    width: 1050px;
+    height:270px;
+    clear: both;
+    margin: 0px auto;
+    /*background-color: red;*/
+    position: relative;
+    border: 1px solid gainsboro;
+}
+.main4{
+    width: 1050px;
+    height:270px;
+    clear: both;
+    margin: 0px auto;
+    /*background-color: red;*/
+    position: relative;
+    border: 1px solid gainsboro;
+}
+.main5{
+    width: 1050px;
+    height:270px;
+    clear: both;
+    margin: 0px auto;
+    /*background-color: red;*/
+    position: relative;
+    border: 1px solid gainsboro;
+}
+.main4 .tiezi_i{
+    width: 40%;
+    height: 40%;
+    margin-left: 5%;
+}
+.main6{
+    margin-top: 80%;
+    width: 1050px;
+    height:270px;
+    clear: both;
+    margin: 0px auto;
+    background-color:white;
+    position: relative;
+    border: 1px solid black;
+}
+#adver img{
+    width: 100%;
+    height: 100%;
+}
+#adver{
+    width: 25%;
+    height: 269px;
+    position: absolute;
+    right: 0px;
+    background: red;
+    border: 1px solid gainsboro ;
+    overflow: hidden;
+    line-height: 28px;
+}
+.main3 .adver{
+    width: 25%;
+    height: 269px;
+    position: absolute;
+    right: 0px;
+    background: red;
+    border: 1px solid gainsboro ;
+    overflow: hidden;
+    line-height: 28px;
+}
+.main3 .adver img{
+    width: 100%;
+    height: 100%;
+}
+.main4 .adver{
+    width: 25%;
+    height: 269px;
+    position: absolute;
+    right: 0px;
+    background: red;
+    border: 1px solid gainsboro ;
+    overflow: hidden;
+    line-height: 28px;
+}
+.main4 .adver img{
+    width: 100%;
+    height: 100%;
+}
+.main5 .adver{
+    width: 25%;
+    height: 269px;
+    position: absolute;
+    right: 0px;
+    background: red;
+    border: 1px solid gainsboro ;
+    overflow: hidden;
+    line-height: 28px;
+}
+.main5 .adver img{
+    width: 100%;
+    height: 100%;
+}
+.main6{
+    /*background: red;*/
+}
+.main6 .tiezi img{
+    margin-top: 3%;
+    margin-left: 7%;
+    width: 100%;
+    height: 100%;
+}
+.main6 .tiezi input[type=text]{
+    margin-top: 6%;
+    margin-left: 7%;
+    width: 100%;
+    height: 100%;
+
+}
+.main6 .tiezi .huifu img{
+    margin-top: 3%;
+    margin-left: 7%;
+    width: 15%;
+    height: 16%;
+}

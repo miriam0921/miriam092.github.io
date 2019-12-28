@@ -1,0 +1,19 @@
+/*.scroll_img{*/
+    /*position: absolute;*/
+    /*left: 0px;*/
+    /*background-color: aqua;*/
+    /*z-index: -20;*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+/*}*/
+.load{
+    float: left;
+    background-color: red;
+
+}
+body{
+    background: url("../img/scroll_01.jpg");
+    background-size:auto,auto;
+    background-repeat: no-repeat ;
+}
+
